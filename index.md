@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Overview
+title:  コミュニティについて
 ---
 
 ![hommachirb]({{ site.baseurl }}/assets/img/hommachirb.png)
@@ -15,3 +15,10 @@ Ruby(プログラミング)初心者・未経験者
 
 スタッフも未経験者・初心者ばかりなので共に成長していきましょう(^^)/
 コーチとしてRubyについて教えて下さる方も大歓迎です(^-^)
+
+----
+
+<h3>イベント</h3>
+{% for post in site.posts %}
+<p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</span></p>
+{% endfor %}
