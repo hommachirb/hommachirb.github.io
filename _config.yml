@@ -1,0 +1,13 @@
+---
+markdown: kramdown
+kramdown:
+  input: GFM
+pygments: true
+baseurl: ''
+encoding: UTF-8
+exclude:
+- README.md
+- tmp
+name: Hommachi.rb
+copyright: 2015, Hommachi.rb
+theme: united
