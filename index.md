@@ -3,7 +3,7 @@ layout: default
 title:  コミュニティについて
 ---
 
-![hommachirb]({{ site.baseurl }}/assets/img/hommachirb.png)
+[![hommachirb]({{ site.baseurl }}/assets/img/hommachirb.png)](http://hommachirb.doorkeeper.jp/)
 
 Ruby(プログラミング)初心者・未経験者
 
